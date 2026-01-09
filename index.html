@@ -22,13 +22,13 @@
       width: 75px;
       height: 75px;
       display: block;
-      animation: spinCW 5s linear infinite;
+      animation: spinCCW 10s linear infinite;
       transform-origin: 50% 50%;
       will-change: transform;
     }
 
-    @keyframes spinCW {
-      to { transform: rotate(360deg); }
+    @keyframes spinCCW {
+      to { transform: rotate(-360deg); }
     }
 
     @media (prefers-reduced-motion: reduce) {
